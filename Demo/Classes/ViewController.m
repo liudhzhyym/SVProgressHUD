@@ -77,7 +77,8 @@
 }
 
 - (void)showWithStatus {
-	[SVProgressHUD showWithStatus:@"Doing Stuff"];
+    [SVProgressHUD showTextWithStatus:@"Doing Stuff"];
+	//[SVProgressHUD showWithStatus:@"Doing Stuff"];
     self.activityCount++;
 }
 
